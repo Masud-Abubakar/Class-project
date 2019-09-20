@@ -1,0 +1,99 @@
+body{margin:0;}
+.topbar{
+	height: 85px;
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	margin-left: 3%;
+}
+.topbar nav{
+	margin-right:3%;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.banner{
+	height: 500px;
+	background: linear-gradient(rgba(165,190,200,0.25),rgba(155,203,130,0.2),rgba(200,150,140,0.3)),url(images/bg6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	background-position: center;
+	font-size: 30px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	letter-spacing: 5px;
+}
+.card{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 3%;
+	margin-right: 3%;
+
+}
+.card div{
+	height: 300px;
+	flex: 1;
+	margin-right: 13px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	text-transform: uppercase;
+	margin-top: -100px;
+}
+.first{
+	background: linear-gradient(rgba(150,50,35,0.7),rgba(50,60,40,0.6)),url(images/bg6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sec{
+	background: linear-gradient(rgba(50,200,150,0.7),rgba(50,60,40,0.6)),url(images/bg6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.trd{
+	background: linear-gradient(rgba(80,60,180,0.7),rgba(50,60,40,0.6)),url(images/bg6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.card p{
+	color: white;
+	padding: 5px;
+}
+.card h3{
+	color: white;
+}
+.card a{
+	text-decoration: none;
+	color: white;
+	border:1px solid white;
+	padding: 5px;
+	border-radius: 3px;
+}
+.card a:hover{
+	background-color: rgb(1,2,40);
+}
+.ban{
+	background: linear-gradient(rgba(100,20,60,0.7),rgba(40,30,100,0.6)),url(images/bg6.jpg);
+	height:200px;
+	align-items: center;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+}
+div h2{
+	color: white;
+
+}
